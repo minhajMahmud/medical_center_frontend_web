@@ -14,7 +14,7 @@ class AppConfig {
         return 'http://localhost:8080/';
       }
 
-      return 'https://api.nstu-medical.com/';
+      return 'https://medicalcenterbackend-production.up.railway.app/';
     }
 
     final host = Uri.base.host.toLowerCase();
@@ -25,6 +25,6 @@ class AppConfig {
       return 'http://localhost:8080/';
     }
 
-    return 'https://api.nstu-medical.com/';
+    return 'https://medicalcenterbackend-production.up.railway.app/';
   }
 }
