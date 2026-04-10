@@ -28,7 +28,7 @@ packages:
   backend_client:
     dependency: "direct main"
     description:
-      path: "../packages/backend_client"
+      path: "packages/backend_client"
       relative: true
     source: path
     version: "0.0.0"
